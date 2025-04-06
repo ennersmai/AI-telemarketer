@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nova2_telemarketer" # Or your preferred project name
+version = "0.1.0"
+# Add other metadata if desired
+requires-python = ">=3.9" # Specify your Python version requirement
+
+[tool.setuptools.packages.find]
+where = ["."] # Tells setuptools to look for packages in the root
+include = ["app*"] # Include the 'app' package and its subpackages
+# exclude = [] # Add packages to exclude if needed

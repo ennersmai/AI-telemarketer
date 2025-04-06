@@ -1,0 +1,26 @@
+# Telemarketer Server Dependencies
+
+# Web framework
+fastapi>=0.100.0
+uvicorn>=0.22.0
+
+# Twilio
+twilio>=8.5.0
+
+# Request handling
+python-multipart>=0.0.6
+pydantic>=2.0.0
+
+# Audio processing
+pydub>=0.25.1
+numpy>=1.24.0
+
+# WebSocket
+websockets>=11.0.3
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# For ElevenLabs integration (already part of Nova2)
+# elevenlabs>=0.2.24 

@@ -1,0 +1,12 @@
+{
+    "name": "end_call",
+    "description": "Terminates the current phone call gracefully when the conversation has reached a natural conclusion or the user wishes to end it.",
+    "parameters": [
+        {
+            "name": "farewell_message",
+            "description": "An optional final message to say to the user before ending the call. If omitted, a default message might be used.",
+            "type": "string",
+            "required": false
+        }
+    ]
+} 
